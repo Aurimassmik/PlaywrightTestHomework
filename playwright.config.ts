@@ -27,7 +27,7 @@ export default defineConfig({
   use: {
     testIdAttribute: 'data-qa',
     //Run test in headed mode
-    headless:false,
+    headless:true,
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
 
