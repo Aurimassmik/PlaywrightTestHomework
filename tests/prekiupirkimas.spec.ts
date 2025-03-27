@@ -39,26 +39,4 @@ test('Success Buying muffin', async({page})=>{
     await expect(page.getByText('Your order has been received.')).toHaveClass('payment-info__text body-large');
    //Close popup
     await page.getByRole('button', { name: 'Got it' }).click();
-
-   
-
-    
-
 });
-
-
-
-
-//goto('https://lightgrey-antelope-m7vwozwl8xf7l3y2.builder-preview.com/ ')
-//shopTabButton.click();
-//productByName.click();
-//addToBagButton.click();
-//checkoutButton.click();
-
-
-//reTurnToStoreButton.click
-
-
-//cartButton.click
-//deleteCartItemButton.click
-//
